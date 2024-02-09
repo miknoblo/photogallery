@@ -8,82 +8,82 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="top">
         <h1>TK Photography</h1>
     </header>
     <nav>
+        <h2>top</h2>
         <ul>
-            <li>About</li>
-            <li>Gallery</li>
-            <li>Contact</li>
-            <li>top</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="contact">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <section>
+        <section id="about">
             <h2>About</h2>
             <p>
-            Hello! 
+            Hello!<br><br>
             I’m TK and I’m a photographer. I love looking at life through the lens of my camera. 
             Landscape photography is my speciality and it’s taken me all over the world.
             </p>
         </section>
-        <section>
+        <section id="gallery">
             <h2>Gallery</h2>
             <p>
             Here are some highlights of my work. The locations and year are in the caption.
             </p> 
             <figure>
-                <img src="Chile.png" alt="Chile">
+                <img src="images/Chile.png" alt="Chile">
                 <figcaption>Chile, 2001</figcaption>
             </figure>
             <figure>
-                <img src="Guatemala.png" alt="Guatemala">
+                <img src="images/Guatemala.png" alt="Guatemala">
                 <figcaption>Guatemala, 1997</figcaption>
             </figure>
             <figure>
-                <img src="Hawaii.png">
+                <img src="images/Hawaii.png">
                 <figcaption>Hawaii, 2010</figcaption>
             </figure>
             <figure>
-                <img src="Iran.png" alt="Iran">
+                <img src="images/Iran.png" alt="Iran">
                 <figcaption>Iran, 1999</figcaption>
             </figure>
             <figure>
-                <img src="Ireland.png" alt="Ireland">      
+                <img src="images/Ireland.png" alt="Ireland">      
                 <figcaption>Ireland, 2012</figcaption>
             </figure>
             <figure>
-                <img src="Italy.png" alt="Italy">
+                <img src="images/Italy.png" alt="Italy">
                 <figcaption>Italy, 2015</figcaption>
             </figure>
             <figure>
-                <img src="Moab-Desert.png" alt="Moab-Desert">
+                <img src="images/Moab-Desert.png" alt="Moab-Desert">
                 <figcaption>Moab Desert, 2020</figcaption>
             </figure>
             <figure>
-                <img src="Rocky-Mountains.png" alt="Rocky Mountains">           
+                <img src="images/Rocky-Mountains.png" alt="Rocky Mountains">           
                 <figcaption>Rocky Mountains, 2009</figcaption>
             </figure>
             <figure>
-                <img src="Switzerland.png" alt="Switzerland">
+                <img src="images/Switzerland.png" alt="Switzerland">
                 <figcaption>Switzerland, 2014</figcaption>
             </figure>
             <figure>
-                <img src="UK.png" alt="UK">
+                <img src="images/UK.png" alt="UK">
                 <figcaption>UK, 2005</figcaption>
             </figure>
             <figure>
-                <img src="USA.png" alt="USA">
+                <img src="images/USA.png" alt="USA">
                 <figcaption>USA, 2021</figcaption>
             </figure>
             <figure>
-                <img src="Wyoming.png" alt="USA">
+                <img src="images/Wyoming.png" alt="USA">
                 <figcaption>Wyoming, 2021</figcaption>
             </figure>
         </section>
     </main>
-    <aside>
+    <section id="contact">
         <h2>Contact</h2>
         <p>Please fill out this form and I’ll connect with you soon.</p>
         <form>
@@ -91,17 +91,16 @@
                 <legend>
                 Your contact information
                 </legend>
-                <label for="name">Name (Your full name)</label>
-                <input type="text" id="name" name="name">
-                <label for="email">Email (Enter your email address)</label>
-                <input type="email" id="email" name="email">
-                <label for="message">Message (What can I help you with?)</label>
-                <input type="text" id="message" name="message">
-                <label for="submit">Submit</label>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your full name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address">
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message" placeholder="What can I help you with?">
                 <input type="submit" id="submit" name="submit">
             </fieldset>
         </form>
-    </aside>
+    </section>
         <footer>
             <small>Copyright 2021 TK Photography</small>
         </footer>
